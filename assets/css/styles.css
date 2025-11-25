@@ -1,11 +1,4 @@
-/* Signature and page styles
- * This moves styling from inline attributes into a single stylesheet.
- */
-
-/* Date: 2025-11-25
- * Author: Copilot
- */
-
+/* CSS for Email Signature Generator */
 :root {
   --green: #685e56;
   --text-dark: #000001;
@@ -80,7 +73,6 @@ html, body {
 .sig-typewriter {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
-  font-weight: 700;
   color: var(--green);
   margin: 8px 0;
   white-space: nowrap;
