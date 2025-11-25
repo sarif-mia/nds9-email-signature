@@ -1,0 +1,14 @@
+{
+  "name": "nds9-signature",
+  "version": "1.0.0",
+  "description": "Signature preview with separate CSS/JS for better development",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -c-1 . -p 8080",
+    "preview": "npx http-server -c-1 . -p 8080"
+  },
+  "keywords": ["signature", "email-signature", "html"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {}
+}
